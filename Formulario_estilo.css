@@ -1,0 +1,27 @@
+body{
+
+background-image: url(crear.jpg);
+background-repeat: no-repeat;
+background-size:100% 110%;
+
+
+}
+
+.capa{
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+    margin-top: 0%;
+    padding-top: 0%;
+    position: absolute;
+    background:#cf6208;
+    opacity: 0.7;
+}
+
+
+.formulario{     /* formulario principal */
+
+    position:relative; 
+    z-index: 1;
+   
+}
