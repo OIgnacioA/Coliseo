@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+
+#contenedor {
+
+width:1200px;
+position:relative;
+margin:auto;
+}
+
+
+#zonaformulario{
+
+    float:left;
+    padding:30px;
+    border:2px solid #f00;
+}
+
+#zonadatos{
+    float:left;
+    width: 500px;
+    margin-left:20px;
+    padding:20px;
+    border:2px dashed #0000ff;
+}
+
+.directorio {
+    color:0000ff;
+    font-weight:bold;
+    cursor:pointer;
+}

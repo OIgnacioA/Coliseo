@@ -1,0 +1,22 @@
+*{
+    font-size: 10px;
+    box-sizing: border-box;
+
+
+
+}
+
+h1 { font-size:3.5em; }
+h2 { font-size:2.7em; }
+h1 { font-size:2em; }
+h1 { font-size:1.5em; }
+
+ul {list-style: none;}
+
+
+body {
+
+margin : 0; 
+font-family: 'roboto';
+
+}
