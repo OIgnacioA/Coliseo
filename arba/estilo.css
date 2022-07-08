@@ -1,0 +1,228 @@
+*{
+        
+    box-sizing: border-box;     /*hace que los tamaños de las cajas no cambien cuando se agrega n otrs valores a elementos como padding, o margin*/
+    font-size: 10px;            /*Tamaño general de root- de aqui tomarán su tamaño todos los rem*/
+    margin : auto;             /* centra el div horizontalmente.*/
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.o-navbar{
+align-items: baseline;
+box-sizing: border-box;
+color: rgb(30, 36, 48);
+cursor: pointer;
+display: flex;
+flex-direction: column;
+font-family: "Encode Sans", sans-serif;
+font-size: 20px;
+font-weight: 700px;
+height: 47px;
+line-height: 20px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+text-align: left;
+text-decoration-color: rgb(30, 36, 48);
+text-decoration-line: none;
+text-decoration-style: solid;
+text-decoration-thickness: auto;
+text-shadow: rgba(19, 30, 80, 0.52) 0px 2px 40px;
+text-size-adjust: 100%;
+transition-delay: 0s;
+transition-duration: 0.3s;
+transition-property :color;
+transition-timing-function: ease;
+white-space: nowrap;
+width: 120px;
+will-change: color;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+
+.o-logo__claim{
+box-sizing: border-box;
+color: rgb(30, 36, 48);
+cursor: pointer;
+display: block;
+font-family: "Encode Sans", sans-serif;
+font-size: 8px;
+/*font-weight: 600;*/
+height: 4rem;
+line-height: 11px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 5px;
+max-width: 115rem;
+text-align: left;
+text-decoration-thickness: auto;
+text-shadow: none;
+text-size-adjust: 100%;
+text-transform: uppercase;
+transition-delay: 0s;
+transition-duration: 0.3s;
+transition-property: color;
+transition-timing-function: ease;
+white-space: normal;
+width: 120px;
+will-change: color;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body{
+    
+    background-image: url("/fondo.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+}
+
+header, footer{
+
+    display:flex;
+    background-color: rgb(36, 28, 15);
+    height: 2rem;
+
+
+}
+
+
+
+#top{
+    Display:flex;    /*alinea los elementos, convirtiendolos en parte de un mismo grupo.En elementos Flexibles.*/
+    Justify-content: space-around; /*centra elementos - se necesita haber declarado el Display: flex*/
+    background-color: rgb(242, 246, 247, 0.8); 
+    width:70%;   /*tamaño relativo al tamaño del width de root.*/
+    border: .3rem solid rgb(15, 102, 233);
+    border-radius: 3rem;
+    margin-top:1rem;
+}
+
+#bottom, #middle{
+    Display:flex;   
+    flex-direction:column;
+    Justify-content: space-around; 
+    background-color: rgb(242, 246, 247, 0.8); 
+    width:70%;  
+    
+    border: .3rem solid rgb(15, 102, 233);
+    border-radius: 3rem;
+    margin-top:1rem;
+    padding-bottom: 1rem;
+}
+
+
+#ChBox{
+
+ margin:1rem;
+ 
+}
+
+#select, #fechas, #Corte, #Subscripciones{
+
+    width: 15rem;
+    height: 2rem;
+
+}
+
+#opcionesImpustos{
+
+ margin:1rem;
+    
+}
+
+
+#name, #TxTname {
+    max-width: 80%;
+}
+
+
+.LocalRed{
+    Display:flex;
+  
+    margin: 1rem;
+
+}
+
+#centrado{
+
+margin:auto;
+max-width: 80%;
+
+}
+
+#url{
+
+margin:1rem;
+
+}
+
+#resultados{
+
+padding:10rem;
+
+}
+
+.section_3{
+
+margin-bottom: 2rem;
+
+
+}
+
+@media (max-width: 600px){/*hasta un tamaño maximo de: 600px, se cumpliran los casos internos*/
+
+    #top, #middle, #bottom{
+       
+        flex-direction: column;
+        Justify-content: space-around; 
+        background-color: rgb(242, 246, 247, 0.8); 
+       
+        width:100%;
+        border: .3rem solid rgb(15, 102, 233);
+        margin-top:1rem;
+
+    }
+
+    #opcionesImpustos, #ChBox, #barras,  #Resultados, #centrado, #url{
+
+        margin-left: auto;
+        margin-right:auto;
+       
+    }
+
+    .Tamaño-Letra{
+
+        font-size: 2rem;
+    }
+    
+    #ChBox, #barras, #Resultados, #centrado, #url{
+
+     display: flex;
+     flex-direction: column;
+
+    }
+
+    #select, #fechas, #Corte, #Subscripciones{
+
+        width: 16rem;
+        height: 3rem;;
+    
+    }
+
+    #name, #TxTname {
+        max-width: 40%;
+    }
+
+}
+
+
+
