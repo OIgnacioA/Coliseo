@@ -162,28 +162,6 @@ dl.adrss dd a {}
 dl.adrss dd a:hover {}
 .footer-col-4 {float:left; width:276px; padding:3px 0px 0 0px;}
 
-/*Ñ:*/
-
-.colorN {color:#0c0c0c;}
-.footer-col-2 dl dd span {color:#0c0c0c;}
-
-
-.Container_Tarj{
-	
-	width: 80%;
-	margin: auto;
-	margin-top: 1rem;
-	display:grid;
-	grid-template-columns:  repeat(3, 1fr)  ;
-	grid-template-rows: 200px 200px ;
-	gap: 0.5rem; 
-}
-
-.Tarjetas:hover {
-background-color: #ebd6d2;
-}
-
-
 
 /**********************form**********************/
 .map {width:276px; height:200px; margin-top:17px; }
@@ -201,6 +179,35 @@ dl.adr dd a:hover {}
 .btns {text-align:right; overflow:hidden; width:607px; }
 .btns a {display:inline-block; margin:20px 0px 0 10px; width:88px; text-align:center;}
 #form label strong {float:left; display:block; padding-top:3px; line-height:15px; width:74px; font-weight:normal; white-space:nowrap;} 
+
+/*Ñ:********************************************************************************/
+
+.colorN {color:#0c0c0c;}
+.footer-col-2 dl dd span {color:#0c0c0c;}
+
+
+.Container_Tarj{
+	
+	width: 80%;
+	margin: auto;
+	margin-top: 1rem;
+	display:grid;
+	grid-template-columns:  repeat(3, 1fr)  ;
+	grid-template-rows: 200px 200px ;
+	gap: 0.5rem; 
+}
+
+.Tarjetas{
+ border: #0c0c0c;
+ width: 100%;
+
+
+
+}
+
+
+.Tarjetas:hover
+
 
 
 
