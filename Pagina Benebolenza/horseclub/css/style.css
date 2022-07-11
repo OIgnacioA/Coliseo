@@ -226,11 +226,12 @@ dl.adr dd a:hover {}
 	padding:20px;
 	text-align: center; 
 	padding:1rem;
+	justify-content: center;
 
 }
 
 .overlay1, .overlay2, .overlay3, .overlay4, .overlay5, .overlay6{
-	display: block;
+	
 	background:rgba(0,0,0,.5);
 	position:fixed; /*toda la pantalla*/
 	top:0;
@@ -239,6 +240,10 @@ dl.adr dd a:hover {}
 	right:0;
 	display:flex;
 	align-items: center;
+	justify-content: center;
+
+
+
 	
 }
 
@@ -269,8 +274,13 @@ dl.adr dd a:hover {}
 }
 
 .imgPopup{
-	max-width: 50rem ;
+	max-width: 60rem ;
 	max-height: 25rem ;
+    min-width: 50rem ;
+	min-height: 25rem ;
+
+
+
 }
 
 
@@ -318,9 +328,3 @@ dl.adr dd a:hover {}
 }
 
 
-.cContenidoH{
-
-
-
-
-}
