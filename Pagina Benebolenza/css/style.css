@@ -89,6 +89,7 @@ ul.list-2 li a:hover {color:#ef6f53;}
 /*********************************header*************************************/
 #Header1{
 	width:100%;
+	height: 7.5rem;
 	margin:0 auto; 
 	z-index:101;
 	background-color:rgb(245, 245, 231);
@@ -138,11 +139,11 @@ ul.menu li a:hover , ul.menu li.current a { color:#ef6f53; }
 footer { width:940px; margin:0 auto; position:relative; overflow:hidden; padding:37px 0 40px 0; background:url(../images/line.png) 0 0 repeat-x;} 
 footer h3 {padding-bottom:15px;}
 .footer-col-1 {float:left; width:190px; padding:0 20px 0 0px; }
-.footer-col-2 {float:left;width:20rem; padding:0 20px 0 0px;}
+
 dl.adrss { margin:0px 0 0px 0;}
 dl.adrss dt {line-height:24px; margin-bottom:3px;}
-dl.adrss dd span { width:52px; text-align:left; display:block; float:left; margin-right:12px; color:#fff;}
-.footer-col-4 {float:right; width:276px; padding:3px 0px 0 0px;margin-top: 6rem;}
+dl.adrss dd span { width:100%; text-align:left; display:inline;  margin-right:12px; color:#fff;}
+
 
 
 /**********************form**********************/
@@ -194,6 +195,7 @@ dl.adr dd a:hover {}
 #Galeria{
 	margin-bottom: 6rem;;
 }
+
 .xCierra{
 
 	font-size:250%;
@@ -345,11 +347,14 @@ dl.adr dd a:hover {}
 /*///----historia -----------------------------*/
 
 #Section_historia{
- margin: 3rem;
+
+	width: 80%;
+	margin: auto;
+ 
 }
 .Historia_contenedor{
 	margin-top: 1rem;
-	margin: 0 5rem 0 3rem;
+	
 	text-align: justify;
 }
 #llamar_historia {
@@ -357,11 +362,44 @@ dl.adr dd a:hover {}
 	margin-top: 8rem;
 }
 
+/*///----footer-contacto -----------------------------*/
 
 
+#Contacto{
+	width: 80%;
+	margin: auto;
+}
+
+.footer-col-2 {
+	width:100%; 
+	display: flex;
+	flex-direction:row;
+	Justify-content:space-between;
+}
+
+.contact, .contact2{
+  width: 300px;
+  margin-right:0;
+}
+
+.contact2{padding-left:10rem ;}
 
 
+.footer-col-4 {
+	width:100%; 
+	display: flex;
+	flex-direction:row;
+	margin-top: 5rem;
+}
 
-.espacio{
-	height: 5rem;
+.footer-col-4 div.Bb {margin: 0rem 13rem 0rem 5rem;}
+
+.footer-col-4 div.Cc {margin-top: 1.5rem;}
+
+.espacio{height: 5rem;}
+
+.iconos {
+
+width: 1rem;
+
 }
